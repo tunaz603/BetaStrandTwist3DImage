@@ -1,0 +1,94 @@
+STRAND_CROP:
+--------------------------------------------------------------------------------
+The strand_crop tool runs in all subdirectories, and generates a cropped version
+of all .pdb files of the following form:
+s1.pdb
+s2.pdb
+s3.pdb
+sX.pdb
+
+By "cropped", we mean the pdb file, which should represent a strand curve,
+will be downsampled such that all samples are within a certain distance of each
+other. The accuracy of the crop depends on how high the resolution of the input
+data is.
+
+The base C program only takes in a single data stream from standard input, and 
+outputs a data stream representing a cropped version. We use a family of shell 
+scripts to provide interaction with the file system.
+
+
+
+
+
+
+
+
+
+
+HOW TO RUN GENERATE_DATA:
+--------------------------------------------------------------------------------
+The strand_crop executable provided as well as the corresponding shell scripts
+are meant to be run on Linux only.
+
+The strand crop tool takes in three parameters:
+
+./generate_data <sampling_length> <starting_index> <data_set_name>
+
+
+sampling_length: Desired amount of Angstroms each sample will be distributed by.
+
+starting_index:  Which line we begin to sample points.  If this is zero, 
+				     sampling will start on the first line.
+
+data_set_name:   What the output filename will be appended with after the 
+                     program runs.
+
+For example:
+
+./generate_data 1.5 6 data_set_6
+
+Will generate the following files:
+
+s1.pdb_data_set_6.pdb
+s2.pdb_data_set_6.pdb
+s3.pdb_data_set_6.pdb
+sX.pdb_data_set_6.pdb
+
+
+
+
+
+
+
+
+
+
+HOW TO RUN REMOVE_DATA:
+--------------------------------------------------------------------------------
+As well, we provide a utility script that removes all files of a specific data
+set, to be used if a data set generated is no longer needed, or was generated in
+error.  For example,
+
+./remove_data data_set_6
+
+Will remove the following files:
+
+s1.pdb_data_set_6.pdb
+s2.pdb_data_set_6.pdb
+s3.pdb_data_set_6.pdb
+sX.pdb_data_set_6.pdb
+
+
+
+
+
+
+
+
+
+
+COMPILING STRAND_CROP
+--------------------------------------------------------------------------------
+To compile the C source code, run the following line in the console:
+
+./make.sh
