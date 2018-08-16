@@ -10,7 +10,8 @@ Here is the Publication link of our paper: https://dl.acm.org/citation.cfm?id=31
 You can read the pdf from my website: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0dW5hemlzbGFtfGd4OjJkMmZkNzRlNWNlZjFlYmY
 
 
-.......................................HOW TO RUN..............................................
+HOW TO RUN:
+--------------------------------------------------------------------------------
 
 STRAND_CROP:
 --------------------------------------------------------------------------------
@@ -82,7 +83,8 @@ To compile the C source code, run the following line in the console:
 ./make.sh
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~HOW TO RUN TWIST~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TWIST ANGLES:
+--------------------------------------------------------------------------------
 1) Use putty or any ssh 
 
 2) keep necessary folders in a directory.
@@ -117,8 +119,10 @@ To compile the C source code, run the following line in the console:
 	For example: 
   
          s1.pdb, s2.pdb,............................. (if we skip nothing)
-				 s1.pdb_data1.pdb, s2.pdb_data1.pdb,.............................(if we skip 1 point)
-				 s1.pdb_data2.pdb, s2.pdb_data2.pdb,.............................(if we skip 2 points)
+	
+	 s1.pdb_data1.pdb, s2.pdb_data1.pdb,.............................(if we skip 1 point)
+	
+	 s1.pdb_data2.pdb, s2.pdb_data2.pdb,.............................(if we skip 2 points)
    
 5) To run the code 
 
