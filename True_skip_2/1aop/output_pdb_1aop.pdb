@@ -1,0 +1,90 @@
+ATOM    145    S LEU A  81       5.908  52.109  16.742
+ATOM    146    S LEU A  81       6.573  50.852  16.913
+ATOM    147    S LEU A  81       7.287  49.632  17.111
+ATOM    148    S LEU A  81       8.051  48.449  17.334
+ATOM    149    S LEU A  81       8.865  47.303  17.583
+ATOM    150    S LEU A  81       9.728  46.194  17.857
+ATOM    151    S LEU A  81       0.262  52.914  19.031
+ATOM    152    S LEU A  81       0.905  51.738  18.681
+ATOM    153    S LEU A  81       1.556  50.553   18.43
+ATOM    154    S LEU A  81       2.213  49.359  18.276
+ATOM    155    S LEU A  81       2.876  48.156   18.22
+ATOM    156    S LEU A  81       3.546  46.944  18.262
+ATOM    157    S LEU A  81      -3.763  50.534   21.14
+ATOM    158    S LEU A  81       -2.85  49.268  20.945
+ATOM    159    S LEU A  81      -2.007   47.99  20.737
+ATOM    160    S LEU A  81      -1.233  46.701  20.516
+ATOM    161    S LEU A  81      -0.528    45.4  20.282
+ATOM    162    S LEU A  81       0.107  44.088  20.035
+ATOM    163    S LEU A  81       0.673  42.763  19.775
+ATOM    164    S LEU A  81        1.17  41.427  19.502
+ATOM    165    S LEU A  81       1.597   40.08  19.216
+ATOM    166    S LEU A  81       1.955  38.721  18.917
+ATOM    167    S LEU A  81       2.243   37.35  18.604
+ATOM    168    S LEU A  81       2.462  35.967  18.279
+ATOM    169    S LEU A  81       2.612  34.573  17.941
+ATOM    170    S LEU A  81       2.692  33.167   17.59
+ATOM    171    S LEU A  81      -0.495  36.535  15.539
+ATOM    172    S LEU A  81      -1.262  37.346  16.515
+ATOM    173    S LEU A  81      -1.998  38.218   17.45
+ATOM    174    S LEU A  81      -2.703  39.153  18.345
+ATOM    175    S LEU A  81      -3.378  40.151  19.198
+ATOM    176    S LEU A  81      -4.021  41.211   20.01
+ATOM    177    S LEU A  81      -4.634  42.334  20.781
+ATOM    178    S LEU A  81      -5.216  43.519  21.511
+ATOM    179    S LEU A  81      -5.767  44.766    22.2
+ATOM    180    S LEU A  81      -6.287  46.077  22.847
+ATOM    181    S LEU A  81      -6.776  47.449  23.454
+ATOM    182    S LEU A  81      -7.235  48.885   24.02
+ATOM    183    S LEU A  81       -7.16  42.885  25.861
+ATOM    184    S LEU A  81      -7.904  42.208  24.665
+ATOM    185    S LEU A  81      -8.402  41.475  23.556
+ATOM    186    S LEU A  81      -8.656  40.688  22.534
+ATOM    187    S LEU A  81      -8.665  39.845  21.599
+ATOM    188    S LEU A  81      -8.429  38.947   20.75
+ATOM    189    S LEU A  81      -7.949  37.994  19.987
+ATOM    190    S LEU A  81      -7.273  37.039  19.277
+ATOM    191    S LEU A  81      -6.623  36.314  18.468
+ATOM    192    S LEU A  81      -6.023  35.845  17.542
+ATOM    193    S LEU A  81      -5.475  35.632  16.499
+ATOM    194    S LEU A  81      -4.976  35.676   15.34
+ATOM    195    S LEU A  81      -4.528  35.976  14.064
+ATOM    196    S LEU A  81      -4.131  36.533  12.672
+
+
+(' MIN_INDEX_Forward', 5)
+(' MIN_INDEX_Backword', 5)
+(' MIN_INDEX_Forward', 4)
+(' MIN_INDEX_Backword', 5)
+(' MIN_INDEX_Forward', 3)
+(' MIN_INDEX_Backword', 1)
+(' MIN_INDEX_Forward', 7)
+(' MIN_INDEX_Backword', 4)
+(' MIN_INDEX_Forward', 12)
+(' MIN_INDEX_Backword', 5)
+(' MIN_INDEX_Forward', 5)
+(' MIN_INDEX_Backword', 5)
+(' MIN_INDEX_Forward', 3)
+(' MIN_INDEX_Backword', 1)
+(' MIN_INDEX_Forward', 7)
+(' MIN_INDEX_Backword', 0)
+(' MIN_INDEX_Forward', 0)
+(' MIN_INDEX_Backword', 4)
+k  1
+pick_index 5
+k  2
+pick_index 6
+(' MIN_INDEX_Forward', 16)
+(' MIN_INDEX_Backword', 7)
+(' MIN_INDEX_Forward', 14)
+(' MIN_INDEX_Backword', 5)
+(' MIN_INDEX_Forward', 3)
+(' MIN_INDEX_Backword', 0)
+(' MIN_INDEX_Forward', 0)
+(' MIN_INDEX_Backword', 4)
+k  1
+pick_index 5
+(' MIN_INDEX_Forward', 10)
+(' MIN_INDEX_Backword', 5)
+(' MIN_INDEX_Forward', 11)
+(' MIN_INDEX_Backword', 5)
