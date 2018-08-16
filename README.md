@@ -119,9 +119,7 @@ TWIST ANGLES:
 	For example: 
   
          s1.pdb, s2.pdb,............................. (if we skip nothing)
-	
 	 s1.pdb_data1.pdb, s2.pdb_data1.pdb,............................. (if we skip 1 point)
-	
 	 s1.pdb_data2.pdb, s2.pdb_data2.pdb,............................. (if we skip 2 points)
    
 5) To run the code 
